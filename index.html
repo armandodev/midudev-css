@@ -5,39 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curso HTML</title>
 
+    <link rel="stylesheet" href="./css/index.css" />
+
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <style>
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-      }
-
-      h1 {
-        color: #09f;
-      }
-
-      label {
-        display: block;
-      }
-
-      #show {
-        background-color: #09f;
-        border: none;
-        border-radius: 5px;
-        color: #fff;
-        cursor: pointer;
-        font-size: 1rem;
-        padding: 0.5rem 1rem;
-      }
-
-      /* iframe {
-        width: 100%;
-        aspect-ratio: 16/9;
-      } */
-    </style>
   </head>
   <body>
     <header>
-      <h1>Portafolio de @armandodev</h1>
+      <h1>Portafolio de <span>@armandodev</span></h1>
 
       <nav>
         <ul class="list">
@@ -57,15 +31,15 @@
     </header>
 
     <!-- Para modales -->
-    <dialog id="dialog">
+    <!-- <dialog id="dialog">
       <h2>Modal</h2>
       <p>Contenido del modal</p>
       <button id="hide">Cerrar</button>
     </dialog>
 
-    <button id="show">Abrir modal</button>
+    <button id="show">Abrir modal</button> -->
 
-    <script>
+    <!-- <script>
       window.show.addEventListener("click", () => {
         window.dialog.showModal();
       });
@@ -73,7 +47,7 @@
       window.hide.addEventListener("click", () => {
         window.dialog.close();
       });
-    </script>
+    </script> -->
 
     <main>
       <img
@@ -81,8 +55,6 @@
         src="./images/yo.jpg"
         alt="Imagen de Jorge Armando Ceras Cárdenas"
         title="Foto de armandodev"
-        width="300"
-        height="300"
       />
       <!--
         Atributo loading en imagen y iframe, mzn
